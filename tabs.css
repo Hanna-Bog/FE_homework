@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Raleway:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+.tabs{
+  margin: auto;
+  width: 1170px;
+  
+  margin-bottom: 50px;
+}
+.tabs__info{
+  margin: auto;
+  height: 500px;
+  border: 1px solid #C6CBCD;
+  display: flex;
+  justify-content: space-around; 
+}
+
+.tabs__text{
+  margin-left: 100px;
+  margin-top: 47px;
+  margin-right: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  }
+
+.tabs__title{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 74px;
+  }
+
+.tabs__button{
+  margin-top: 10px;
+  height: 58px;
+  width: 270px;
+  background: #EC7979;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  align-items: center;
+  border:none;
+  cursor: pointer;
+}
+
+.tabs__button:hover{
+  background: #AB4949;
+}
+.tabs__button:active{
+  background: #EC7979;
+box-shadow: inset 0px 0px 10px #AB4949;
+}
+
+.tabs__switch{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400px; 
+}
+
+.tabs__switch-name{
+  width: 203px;
+  height: 40px;
+  margin: 0;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: #FFFFFF;
+}
+
+.tabs__switch-name:focus{ 
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid #C6CBCD;
+  margin-bottom: -4.5px;
+  border-bottom: #fff;
+}
+.tabs__switch-name:hover{
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid #C6CBCD;
+  margin-bottom: -4.5px;
+  border-bottom: #fff;
+}
+
+.tabs__pic{
+  height: 100%;
+}
