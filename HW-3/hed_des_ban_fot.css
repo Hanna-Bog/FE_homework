@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Raleway:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+.head__contain {
+  width: 1510px;
+  height: 75px;
+  background: #000;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.head__contain-logo {
+  margin: auto;
+  margin-left: 150px;
+}
+
+.head__contain-nav {
+  margin: auto;
+}
+
+.contain-nav {
+  background: #000;
+  height: 75px;
+  width: 113px;
+  color: #fff;
+  border: none;
+  padding: 0;
+}
+
+.sty {
+  font-family: 'Raleway', sans-serif;
+  width: 1510px;
+  height: 442px;
+  margin:auto ; 
+  background: url(./img/sTown.png) no-repeat;
+  
+}
+
+.dark__wrapper {
+  width: 1510px;
+  height: 442px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.sty__title {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.sty__title-wrapper {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sty__line {
+  border-bottom: 1px solid #fff;
+  width: 170px;
+  margin: auto;
+  margin-bottom: 40px;
+}  
+
+.sty__subtitle {
+margin: 0;
+color: #fff;
+font-size: 18px;
+text-align: center;
+margin-bottom: 73px;
+}
+
+.blok__sty {
+  display: flex;
+  justify-content: center;
+}
+
+.sty__button {
+  margin-top: 10px;
+  height: 58px;
+  width: 270px;
+  background: none;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  align-items: center;
+  border:2px solid #FFFFFF;
+  cursor: pointer;
+}
+
+.SM {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  width: 1510px;
+  height: 140px;
+  background: #F8EFEF;
+}
+
+.SM__text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-left: 170px;
+  margin-right: 0;
+}
+
+.SM__text p {
+  font-family: 'Raleway';
+  color: #86878B;
+  font-size: 18px;
+}
+
+.FA {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 170px;
+}
+
+.FA i {
+  width: 70px;
+  height: 70px;
+  margin-left: 35px;
+  color: #CCCCCC;
+}
+
+.end {
+  background:#000;
+  width: 1510px;
+  height: 164px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FA__end {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+.FA__end i {
+  margin: 40px 30px 0 ;
+  color: #CCCCCC;
+}
+
+.end p {
+  font-family: 'Raleway';
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+}
