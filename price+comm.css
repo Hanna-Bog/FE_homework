@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Raleway:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+/*Стиль для AWESOME*/
+.awesome {
+  font-family: 'Raleway', sans-serif;
+  width: 1170px;
+  margin: auto ; 
+}
+
+.awesome__title {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.awesome__title-wrapper {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.awesome__line {
+  border-bottom: 1px solid #EC7979;
+  width: 170px;
+  margin: auto;
+  margin-bottom: 40px;
+}  
+
+.awesome__subtitle {
+  margin: 0;
+  color: #86878B;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+.awesome__container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.awesome__block { 
+  width: 370px; 
+}
+
+.awesome__icon-wrapper {
+  height: 92px;
+  width: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #EC7979;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 78px;
+}
+
+.awesome__block-title {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 47px;
+}
+
+/*Стиль для TABS*/
+
+.tabs {
+  margin: auto;
+  width: 1170px;
+  margin-bottom: 50px;
+}
+
+.tabs__info {
+  margin: auto;
+  height: 500px;
+  border: 1px solid #C6CBCD;
+  display: flex;
+  justify-content: space-around; 
+}
+
+.tabs__text {
+  margin:47px 0 30px 100px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+.tabs__title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 74px;
+}
+
+.tabs__button {
+  margin-top: 10px;
+  height: 58px;
+  width: 270px;
+  background: #EC7979;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  align-items: center;
+  border: none;
+}
+
+.tabs__button:hover {
+  background: #AB4949;
+  cursor: pointer;
+}
+
+.tabs__button:active {
+  background: #EC7979;
+  box-shadow: inset 0px 0px 10px #AB4949;
+}
+
+.tabs__switch {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400px; 
+}
+
+.tabs__switch-name {
+  width: 203px;
+  height: 40px;
+  margin: 0;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: #FFFFFF;
+}
+
+.tabs__switch-name:focus { 
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid #C6CBCD;
+  margin-bottom: -4.5px;
+  border-bottom: #fff;
+}
+
+.tabs__switch-name:hover {
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid #C6CBCD;
+}
+
+.tabs__pic {
+  height: 100%;
+}
+
+/*цена и комментарии*/ 
+
+.pric {
+  font-family: 'Raleway', sans-serif;
+  width: 1508px;
+  height: 900px;
+  margin: auto ; 
+  background-color: #F5F5F5;
+}
+
+.pric__title, .say__title {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.pric__title-wrapper, .say__title-wrapper {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pric__line, .say__line {
+  border-bottom: 1px solid #EC7979;
+  width: 170px;
+  margin: auto;
+  margin-bottom: 40px;
+}  
+
+.pric__subtitle, .say__subtitle {
+  margin: 0;
+  color: #86878B;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 79px;
+}
+
+.pric__container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 10%;
+}
+
+.pric__block { 
+  width: 370px;
+}
+
+p[class*="black"] {
+  background: #333333;
+  border: 2px solid #F5F5F5;
+  color: #fff;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pric__black:first-child {
+  height: 60px;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.pric__black:nth-child(2) {
+  height: 100px;
+  font-size: 36px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.pric__black {
+  height: 50px;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.pric__withe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin: 0;
+  background: #FFFFFF;
+  border: 2px solid #F5F5F5;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.pric__block:hover { 
+  margin-top: -20px;
+  margin-bottom: auto;
+  box-shadow: 0 4px 10px rgba(51, 51, 51, 0.2);
+}
+
+.say {
+  font-family: 'Raleway', sans-serif;
+  height: 744px;
+  margin: auto ; 
+}
+
+.say__comment {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.block__mes {
+  position: relative;
+  width: 370px;
+  height: 180px;
+  background: #E2E2E2;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 66px;
+}
+
+.mes__mark {
+  position: absolute; /*для того чтобы треугольник комментария оставался на месте*/
+  margin-top: 200px;
+  margin-left: 70px;
+  width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 25px solid #E2E2E2;
+}
+
+.block__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block__name {
+  margin: 30px 0;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.block__icon-text {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.block__job {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+}
