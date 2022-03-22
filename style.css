@@ -312,8 +312,7 @@ p[class*="black"] {
 
 .contain-nav {
   background: #000;
-  height: 75px;
-  width: 113px;
+  margin-left: 80px;
   color: #fff;
   border: none;
   padding: 0;
@@ -375,7 +374,18 @@ p[class*="black"] {
   font-weight: 600;
   font-size: 18px;
   border:2px solid #FFFFFF;
+}
+
+.design__button:hover {
+  color: #EC7979;
+  border:2px solid #EC7979;
   cursor: pointer;
+}
+
+.design__button:active {
+  color: #FFFFFF;
+  border:2px solid #AB4949;
+  background: #AB4949;
 }
 
 /*медиа*/
@@ -507,6 +517,18 @@ p[class*="black"] {
   color: #333333;
 }
 
+.banner__button:hover {
+  color: #EC7979;
+  border:2px solid #EC7979;
+  cursor: pointer;
+}
+
+.banner__button:active {
+  color: #FFFFFF;
+  border:2px solid #AB4949;
+  background: #AB4949;
+}
+
 #form__name, #form__email, #form__pas {
   border: none;
   outline: none;
@@ -545,6 +567,17 @@ p[class*="black"] {
 }
 
 .contact__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.basic__wrapper {
   display: flex;
   flex-direction: column;
   margin-right: 30px;
