@@ -330,6 +330,7 @@ p[class*="black"] {
   margin: auto ; 
   background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url(./imagine/sTown.png) no-repeat;
   background-position: center;  
+  background-size: 100% 100%;
   margin-bottom: 50px;
 }
 
@@ -444,16 +445,16 @@ p[class*="black"] {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-top: 40px;
 }
 
 .font-aw__end {
-  width: 500px;
+  width: 40%;
   display: flex;
   justify-content: space-around;
 }
 
 .font-aw__end i {
-  margin: 40px 30px 0 ;
   color: #CCCCCC;
 }
 
@@ -468,6 +469,7 @@ p[class*="black"] {
 .banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url(./imagine/banner.png) no-repeat;
   background-position: center;
+  background-size: 100% 100%;
   width: 100%;
   height: 950px;
   margin: auto;
