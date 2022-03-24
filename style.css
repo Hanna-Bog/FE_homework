@@ -161,7 +161,7 @@
 
 .pric {
   font-family: 'Raleway', sans-serif;
-  width: 1508px;
+  width: 100%;
   height: 900px;
   margin: auto ; 
   background-color: #F5F5F5;
@@ -171,7 +171,7 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin: 0 10%;
+  margin: 0 20%;
 }
 
 .pric__block { 
@@ -290,7 +290,7 @@ p[class*="black"] {
 /* header */
 
 .head__contain {
-  width: 1510px;
+  width: 100%;
   height: 75px;
   background: #000;
   margin: auto;
@@ -303,16 +303,18 @@ p[class*="black"] {
 
 .head__contain-logo {
   margin: auto;
-  margin-left: 150px;
+  margin-left: 10%;
 }
 
 .head__contain-nav {
   margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .contain-nav {
   background: #000;
-  margin-left: 80px;
   color: #fff;
   border: none;
   padding: 0;
@@ -323,10 +325,11 @@ p[class*="black"] {
 
 .design {
   font-family: 'Raleway', sans-serif;
-  width: 1510px;
+  width: 100%;
   height: 442px;
-  margin:auto ; 
-  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url(./imagine/sTown.png) ;  
+  margin: auto ; 
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url(./imagine/sTown.png) no-repeat;
+  background-position: center;  
   margin-bottom: 50px;
 }
 
@@ -394,8 +397,9 @@ p[class*="black"] {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   margin: auto;
-  width: 1510px;
+  width: 100%;
   height: 140px;
   background: #F8EFEF;
   margin-bottom: 100px;
@@ -433,7 +437,7 @@ p[class*="black"] {
 
 .end {
   background:#000;
-  width: 1510px;
+  width: 100%;
   height: 164px;
   margin: auto;
   display: flex;
@@ -462,13 +466,19 @@ p[class*="black"] {
 /*banner style*/
 
 .banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url(./imagine/banner.png);
-  width: 1510px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ), url(./imagine/banner.png) no-repeat;
+  background-position: center;
+  width: 100%;
   height: 950px;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.banner__wrapper {
+  display: flex;
+  flex-direction: row;
 }
 
 .banner__text {
@@ -555,6 +565,16 @@ p[class*="black"] {
   font-size: 15px;
 }
 
+.form__button:hover {
+  background: #AB4949;
+  cursor: pointer;
+}
+
+.form__button:active {
+  background: #EC7979;
+  box-shadow: inset 0px 0px 10px #AB4949;
+}
+
 .colortext {
   color: #EC7979;
 }
@@ -617,4 +637,14 @@ p[class*="black"] {
   font-size: 18px;
   align-items: center;
   border: none;
+}
+
+.contact__button:hover {
+  background: #AB4949;
+  cursor: pointer;
+}
+
+.contact__button:active {
+  background: #EC7979;
+  box-shadow: inset 0px 0px 10px #AB4949;
 }
