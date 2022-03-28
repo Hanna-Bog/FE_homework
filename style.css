@@ -171,7 +171,8 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-  margin: 0 20%;
+  margin: auto;
+  width: 1170px;
 }
 
 .pric__block { 
