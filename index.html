@@ -2,7 +2,8 @@
   <html>
     <head>
       <meta charset="uft-8">
-      <title>HW-4</title>
+      <title>AXIT</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="./style.css">
     </head>
@@ -12,6 +13,26 @@
           <img src="./imagine/AXIT1.png" alt="">
           <img src="./imagine/AXIT2.png" alt="">
         </div>
+        <!-- mobile menu -->
+        <div class="mobile__menu">
+          <div class="menu-wrapper">
+            <div class="menu-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>        
+          <div class="menu">
+            <nav>
+              <li><a >Features</a></li>
+              <li><a >About</a></li>
+              <li><a >Pricing</a></li>
+              <li><a >Reviews</a></li>
+              <li><a >Contact</a></li>
+            </nav>
+          </div>
+        </div>        
+        <!-- end m-m -->
         <nav class="head__contain-nav">
           <a class="contain-nav">Features</a>
           <a class="contain-nav">About</a>
@@ -23,7 +44,7 @@
       <section class="banner">
         <div class="banner__wrapper">
           <div class="banner__text">
-            <div>
+            <div class="banner__logo">
               <img src="./imagine/banner_name 1.png" alt="">
               <img src="./imagine/banner_name 2.png" alt=""> 
             </div>
@@ -33,7 +54,7 @@
             <button class="banner__button">Download</button>
           </div>
         <form class="banner__form">
-          <p class="banner__form-title">TRY YOUR <span class="colortext">FREE</span> TODAY</p>
+          <p class="banner__form-title">TRY YOUR <span class="colortext">FREE</span> TRAIL TODAY</p>
           <input type="text" placeholder="Name" id="form__name">
           <input type="email" placeholder="Email" id="form__email">
           <input type="password" placeholder="Password" id="form__pas">
@@ -42,36 +63,44 @@
       </div>
       </section>
       <section class="media">
-        <div class="media__text">
-          <h4>Social Media</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Aenean euismod bibendum laoreet.</p>
-        </div>
-        <div class="font-aw">
-          <i class="fa fa-facebook fa-4x" aria-hidden="true" ></i>
-          <i class="fa fa-twitter fa-4x" aria-hidden="true"></i>
-          <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
-          <i class="fa fa-pinterest fa-4x" aria-hidden="true"></i>
-          <i class="fa fa-instagram fa-4x" aria-hidden="true"></i>
-          <i class="fa fa-github fa-4x" aria-hidden="true"></i>
-          <i class="fa fa-rss fa-4x" aria-hidden="true"></i>
+        <div class="media-wrapper">
+          <div class="media__text">
+            <h4>Social Media</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Aenean euismod bibendum laoreet.</p>
+          </div>
+          <div class="font-aw">
+            <i class="fa fa-facebook fa-4x" aria-hidden="true" ></i>
+            <i class="fa fa-twitter fa-4x" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+            <i class="fa fa-pinterest fa-4x" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-4x" aria-hidden="true"></i>
+            <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+            <i class="fa fa-rss fa-4x" aria-hidden="true"></i>
+          </div>
         </div>
       </section>
       <section class="tabs">
-        <div class="tabs__switch">
-         <button class="tabs__switch-name">TAB 1</button>
-         <button class="tabs__switch-name">TAB 2</button>
-         <button class="tabs__switch-name">TAB 3</button>
-       </div>
-       <div class="tabs__info">
-         <div class="tabs__text">
-           <h3 class="tabs__title">Tabs with soft transitioning effect.</h3>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-           <p>Lipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-           <button class="tabs__button">Download</button>
-         </div>
-         <img src="./imagine/tab1.jpg" alt="">
-       </div>
+        <div class="tabs-wrapper">
+          <div class="tabs__switch">
+            <button class="tabs__switch-name">TAB 1</button>
+            <button class="tabs__switch-name">TAB 2</button>
+            <button class="tabs__switch-name">TAB 3</button>
+          </div>
+          <div class="tabs__info">
+            <div class="tabs__text">
+              <h3 class="tabs__title">Tabs with soft transitioning effect.</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.
+              </p>
+              <p>
+                Lipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+              </p>
+              <button class="tabs__button">Download</button>
+            </div>
+            <img src="./imagine/tab1.jpg" alt="" class="tabs__img">
+          </div>
+        </div>        
      </section>                  
      <section class="awesome"><!--секция AWESOME-->  
        <div class="awesome__title-wrapper">
@@ -80,21 +109,21 @@
        <div class="awesome__line"></div>
        <p class="awesome__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
        <div class="awesome__container">
-         <div class="awesome_block">
+         <div class="awesome__block">
            <div class="awesome__icon-wrapper"> 
              <img class="ciawesome__icon" src="./imagine/bulb.png" alt="">
            </div> 
            <h4 class="awesome__block-title">Thoughtful Design</h4>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
          </div>
-         <div class="awesome_block">
+         <div class="awesome__block">
            <div class="awesome__icon-wrapper">
              <img class="ciawesome__icon" src="./imagine/keyboard.png" alt=""> 
            </div> 
            <h4 class="awesome__block-title">Thoughtful Design</h4>
            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra.</p>
          </div>
-         <div class="awesome_block">
+         <div class="awesome__block">
            <div class="awesome__icon-wrapper">
              <img class="ciawesome__icon" src="./imagine/light.png" alt=""> 
            </div> 
@@ -154,7 +183,9 @@
         <div class="say__comment">
           <div class="comment__block">
             <div class="block__mes">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+              </p>
               <div class="mes__mark"></div>
             </div>
             <div class="block__icon">
@@ -167,7 +198,9 @@
           </div>
           <div class="comment__block">
             <div class="block__mes">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+              </p>
               <div class="mes__mark"></div>
             </div>
             <div class="block__icon">
@@ -180,7 +213,9 @@
           </div>
           <div class="comment__block">
             <div class="block__mes">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ccusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+              </p>
             <div class="mes__mark"></div>
           </div>
             <div class="block__icon">
@@ -192,13 +227,85 @@
             </div>
           </div>
         </div>
+        <div class="all">
+          <input checked type="radio" name="respond" id="desktop">
+            <article id="slider">
+                <input checked type="radio" name="slider" id="switch1">
+                <input type="radio" name="slider" id="switch2">
+                <input type="radio" name="slider" id="switch3">
+              <div id="slides">
+                <div id="overflow">
+                  <div class="image">
+                    <article>
+                      <div class="comment__block">
+                      <div class="block__mes">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+                        </p>
+                        <div class="mes__mark"></div>
+                      </div>
+                      <div class="block__icon">
+                        <img src="./imagine/face1.png" alt="">
+                        <div class="block__icon-text"> 
+                          <p class="block__name">Davis Rhiel Madsen</p>
+                          <p class="block__job">Manager</p>
+                        </div>
+                      </div>
+                      </div>
+                    </article>
+                    <article>
+                      <div class="comment__block">
+                      <div class="block__mes">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+                        </p>
+                        <div class="mes__mark"></div>
+                      </div>
+                      <div class="block__icon">
+                        <img src="./imagine/face2.png" alt="">
+                        <div class="block__icon-text"> 
+                          <p class="block__name">Jaydon Rosser</p>
+                          <p class="block__job">Manager</p>
+                        </div>              
+                      </div>
+                    </div>
+                    </article>
+                    <article>
+                      <div class="comment__block">
+                      <div class="block__mes">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat similique odio aspernatur ex, architecto eaque quo suscipit.
+                        </p>
+                      <div class="mes__mark"></div>
+                    </div>
+                      <div class="block__icon">
+                        <img src="./imagine/face3.png" alt="">
+                        <div class="block__icon-text"> 
+                          <p class="block__name">Cooper Dorwart</p>
+                          <p class="block__job">Manager</p>
+                        </div>
+                      </div>
+                    </div>
+                    </article>							
+                  </div>
+                </div>
+              </div>				
+              <div id="active">
+                <label for="switch1"></label>
+                <label for="switch2"></label>
+                <label for="switch3"></label>					
+              </div>
+            </article>
+        </div>
       </section>
       <section class="design">
         <div class="design__title-wrapper">
           <h2 class="design__title">STYLISH AXURE DESIGN</h2>
         </div>
         <div class="design__line"></div>
-        <p class="design__subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+        <p class="design__subtitle">
+          Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!
+        </p>
         <div class="blok__design">
           <button class="design__button">Download</button>
         </div>
@@ -208,7 +315,9 @@
           <h2 class="contact__title">CONTACT US</h2>
         </div>
         <div class="contact__line"></div>
-        <p class="contact__subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+        <p class="contact__subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
         <div class="contact__form-wrapper">
           <form class="contact__form">
             <div class="form__wrapper">
@@ -235,5 +344,6 @@
         </div>
         <p>© 2015 Axure Themes</p>
       </footer>
+      <script  src="./index.js"></script>
     </body>
   </html>
